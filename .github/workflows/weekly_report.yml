@@ -1,0 +1,25 @@
+name: Weekly O2C report
+
+on:
+  schedule:
+    - cron: "30 2 * * 1"     # every Monday 08:00 IST (02:30 UTC)
+  workflow_dispatch:          # lets you run it manually from the Actions tab
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: python run_all.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: weekly-o2c-report
+          path: |
+            reports/*.xlsx
+            reports/*.txt
+            reports/*.csv

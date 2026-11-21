@@ -1,0 +1,25 @@
+category,month,forecast_units,in_sample_mape_pct
+Accessories,2026-11,2800,11.4
+Accessories,2026-12,2788,11.4
+Accessories,2027-01,2906,11.4
+Body Parts,2026-11,2987,9.8
+Body Parts,2026-12,2805,9.8
+Body Parts,2027-01,3041,9.8
+Brake System,2026-11,2801,7.8
+Brake System,2026-12,2637,7.8
+Brake System,2027-01,2845,7.8
+Electricals,2026-11,2725,8.5
+Electricals,2026-12,2440,8.5
+Electricals,2027-01,2953,8.5
+Engine Parts,2026-11,2868,6.5
+Engine Parts,2026-12,2750,6.5
+Engine Parts,2027-01,2888,6.5
+Filters,2026-11,2781,10.2
+Filters,2026-12,2524,10.2
+Filters,2027-01,2705,10.2
+Lubricants,2026-11,2621,7.4
+Lubricants,2026-12,2795,7.4
+Lubricants,2027-01,3068,7.4
+Suspension,2026-11,2808,10.0
+Suspension,2026-12,2614,10.0
+Suspension,2027-01,2680,10.0
