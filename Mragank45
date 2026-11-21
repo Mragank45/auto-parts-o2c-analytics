@@ -99,3 +99,10 @@ Without an API key it uses keyword matching. To enable LLM mode, set `ANTHROPIC_
 ## Tech stack
 
 Python · pandas · SQLite · scikit-learn · Streamlit · Plotly · openpyxl · GitHub Actions · (optional) Claude API
+
+## Dashboard
+
+![Performance](docs/screenshots/performance.png)
+![Receivables](docs/screenshots/receivables.png)
+![AI risk](docs/screenshots/ai_risk.png)
+
